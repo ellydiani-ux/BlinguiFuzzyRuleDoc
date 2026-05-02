@@ -13,7 +13,7 @@ Modelo capaz de identificar obstáculos e auxiliar na tomada de decisão.
 - C++ /Arduíno
 - Lógica Fuzzy / Regras Fuzzy
 - Processamento de dados
-  -Sistemas Fuzzy Baseados em Regras
+- Sistemas Fuzzy Baseados em Regras
 
 ## Aplicações
 - Acessibilidade
