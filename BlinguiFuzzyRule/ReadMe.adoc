@@ -1,58 +1,20 @@
-:Author: ellydiani
-:Email: {AuthorEmail}
+:Author: Elidiane
+:Email: {ellydiani@gmail.com}
 :Date: 04/11/2022
 :Revision: version#
 :License: Public Domain
 
-= Project: {Project}
-
-Describe your project
-
-== Step 1: Installation
-Please describe the steps to install this project.
-
-For example:
-
-1. Open this file
-2. Edit as you like
-3. Release to the World!
-
-== Step 2: Assemble the circuit
-
-Assemble the circuit following the diagram layout.png attached to the sketch
-
-== Step 3: Load the code
-
-Upload the code contained in this sketch on to your board
-
-=== Folder structure
-
-....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
-  └── ReadMe.adoc         => this file
-....
-
-=== License
-This project is released under a {License} License.
-
-=== Contributing
-To contribute to this project please contact ellydiani https://id.arduino.cc/ellydiani
-
-=== BOM
-Add the bill of the materials you need for this project.
-
-|===
-| ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10
-| L1 | Red LED        | 2345-asdf   | 5
-| A1 | Arduino Zero   | ABX00066    | 1
-|===
+= Project: Bingui Fuzzy Rule
+FRB-BlinGui: Um Modelo Baseado em Regras Fuzzy para Previsão de Riscos de Colisão com Obstáculos em Apoio a Pessoas com Deficiência Visual
+É possível observar na literatura que diversas abordagens são desenvolvidas para a navegação segura e orientação de pessoas com deficiência visual, visando evitar colisões com obstáculos. Essas abordagens frequentemente utilizam sensores ultrassônicos ou infravermelhos, aplicativos móveis com o auxílio de câmeras para visão computacional ou dispositivos vestíveis. No entanto, as incertezas e imprecisões decorrentes da dinâmica do ambiente muitas vezes são negligenciadas, tornando a navegação e orientação para pessoas com deficiência visual inseguras e sujeitas a vários tipos de colisões com diversos tipos de obstáculos. Diante dessa situação, surge a necessidade de desenvolver abordagens que considerem o grau de risco de colisão apresentado por cada obstáculo, considerando a dinâmica no deslocamento entre o indivíduo e o obstáculo, bem como a sua localização em pontos altos ou baixos de difícil percepção. Nesse contexto, a Teoria de Conjuntos Fuzzy (TCF) apresenta-se como um ferramental essencial para lidar com a imprecisão e as incertezas existentes no ambiente, uma vez que o uso de sistemas baseados na TCF possuem a vantagem da interpretação intuitiva do comportamento do usuário. Sendo assim, este projjeto apresenta um modelo inovador para detecção de obstáculos e previsão de riscos de colisões em cenários dinâmicos, denominado FRB-BlinGui (Modelo de navegação e orientação cega baseado em regras fuzzy). O modelo proposto foi testado em um dispositivo vestível para detectar obstáculos e prevenir colisões em tempo real, oferecendo alertas graduais sobre os riscos. Os resultados mostram sua eficácia ao fornecer alertas, prometendo melhorar a segurança e mobilidade de pessoas com deficiência visual.
 
 
-=== Help
-This document is written in the _AsciiDoc_ format, a markup language to describe documents.
-If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
-or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
+== Step: Installation
+
+1. Abrir os arquivos na IDE do arduíno
+2. fazer upload do cógigo do dispositivo vestível blingui
+
+== Step 2: Dispositivo Vestível Blingui
+A imagem do dispositivo e do circuito é apresentado na figura blingui.png
+== Step 3:carega o código no dispositivo blingui 
+upload do código no dispositivo vestível
